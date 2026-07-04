@@ -52,7 +52,8 @@ public class Calcualdora {
             segundoNum = datos.nextDouble();
 
             switch (opcion) {
-                case 1:
+                case 1: 
+                    //--Operacion suma--
                     resultado = primerNum + segundoNum;
                     System.out.println(primerNum + " + " + segundoNum + " = " + resultado);
                     break;
