@@ -68,6 +68,7 @@ public class Calcualdora {
                     System.out.println(primerNum + " * " + segundoNum + " = " + resultado);
                     break;
                 case 4:
+                    //--Operacion Division--
                     if (segundoNum != 0) {
                         resultado = primerNum / segundoNum;
                         System.out.println(primerNum + " / " + segundoNum + " = " + resultado);
