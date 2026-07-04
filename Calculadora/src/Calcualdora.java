@@ -63,6 +63,7 @@ public class Calcualdora {
                     System.out.println(primerNum + " - " + segundoNum + " = " + resultado);
                     break;
                 case 3:
+                    //--Operacion multiplicacion--
                     resultado = primerNum * segundoNum;
                     System.out.println(primerNum + " * " + segundoNum + " = " + resultado);
                     break;
