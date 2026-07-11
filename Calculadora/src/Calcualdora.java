@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class Calcualdora {
+// NOTA: El nombre se mantiene: 'Calcualdora' está mal escrito. Por lo que 
+// debe quedar igual ya que debe coincidir exactamente con el nombre del archivo
+// Calcualdora.java para que el compilador de Java pueda ejecutar el programa sin errores.
     public static void main(String[] args) {
         Scanner datos = new Scanner(System.in);
 
@@ -8,10 +11,12 @@ public class Calcualdora {
         double primerNum, segundoNum, resultado = 0;
         boolean operacionValida;
 
+        System.out.println("=== BIENVENIDO A LA CALCULADORA ==="); 
         do {
             operacionValida = true;
 
             System.out.println("Calculadora");
+            System.out.println("----------------------------------------");
 
             System.out.println("¿Qué deseas hacer");
             System.out.println("1. Sumar");
